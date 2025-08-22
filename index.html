@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<script src="https://gw.alipayobjects.com/as/g/h5-lib/alipayjsapi/3.1.1/alipayjsapi.inc.min.js"></script>
+<title>405</title>
+<style>
+	body{
+		background-color:#444;
+		font-size:14px;
+	}
+	h3{
+		font-size:60px;
+		color:#eee;
+		text-align:center;
+		padding-top:30px;
+		font-weight:normal;
+	}
+</style>
+</head>
+
+<body>
+    
+  
+<script>
+
+    ap.tradePay({
+      orderStr: 'alipay_sdk=alipay-sdk-java-4.40.308.ALL&app_id=2021004161648658&biz_content=%7B%22business_params%22%3A%7B%22outTradeRiskInfo%22%3A%22%7B%5C%22mcCreateTradeTime%5C%22%3A%5C%222025-08-22+19%3A53%3A14%5C%22%7D%22%2C%22mc_create_trade_ip%22%3A%221.193.56.160%22%7D%2C%22extend_params%22%3A%7B%7D%2C%22out_trade_no%22%3A%2217202508221953140000032353102292%22%2C%22passback_params%22%3A%22%7B%5C%22ATTACH_1%5C%22%3A%5C%22htujkJ6hgQXb7%5C%2FD0gFaKRGOyqNH1KUVgIUvVBiMthHc%5C%5Cu003d%5C%22%7D%22%2C%22product_code%22%3A%22QUICK_MSECURITY_PAY%22%2C%22settle_info%22%3A%7B%22settle_detail_infos%22%3A%5B%7B%22amount%22%3A%2230.00%22%2C%22trans_in_type%22%3A%22defaultSettle%22%7D%5D%7D%2C%22sub_merchant%22%3A%7B%22merchant_id%22%3A%222088850304547473%22%7D%2C%22subject%22%3A%22%E5%B0%8F%E7%BA%A2%E4%B9%A6%E8%AE%A2%E5%8D%95%3A+Pea771415594181210521%22%2C%22time_expire%22%3A%222025-08-22+20%3A23%3A14%22%2C%22total_amount%22%3A%2230.00%22%7D&charset=UTF-8&format=json&method=alipay.trade.app.pay&notify_url=https%3A%2F%2Fpay-qcsh.xiaohongshu.com%2Fpayment%2Falipay%2Fpay%2FALIPAY_2200527468&sign=HzbaK4rz4V92f2BvbwIreVh46DCxmVf1gpigIGm5eBuzoP5MWZy0eHRHp02wdgEP8dXbKGwDcNaNp5IRaFvSWpDPKL3D7KtwjwkhR33yt1RPCjeYe5rXafIwTyK%2FCIHVg2pNiIuePNp403H9S8d6cZYbFYayI1l2PQSqjyOS%2Ffbt4C02BmuRTsoeDROEGkwgd5Rn8f9vbQRo%2FLh%2FucVYV2wIL2o1XUudfyDBS6RQZOfqB2QuLb4bYX9UttO7s2fdSLR3HD3vyFHzNRdTRe5pXLq29ueQ8SdsDVnTvnWXIyWFKTvsQk%2Bh1qZVv3DzMbkDq3edjFXlxdOUT%2FweU7CDSw%3D%3D&sign_type=RSA2&timestamp=2025-08-22+19%3A53%3A14&version=1.0'
+     
+       }, function(res){
+      console.log(res.resultCode);
+    });
+ 
+</script>
+
+</body>
+</html>
